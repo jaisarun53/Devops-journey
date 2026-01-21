@@ -58,6 +58,20 @@ On Day 2, the focus shifted to the backbone of the IT industry: the **Software D
 5. **Testing 🧪**: QA Engineers validating the code in staging environments.
 6. **Deployment 🚀**: Promoting the code to production for the end user.
 
+
+---
+
+## 🏛️ Phase 0: The Business of DevOps (Prerequisites)
+Before writing code, I explored how software moves from a customer's idea to a DevOps engineer's task.
+
+* **Organizational Awareness:** Understanding the roles of Product Managers, Architects, and the Scrum Team.
+* **Agile Methodology:** Working in Sprints, attending Daily Stand-ups, and managing blockers.
+* **The Jira Workflow:** How "Business Requirements" (BRD) become "Technical Tasks" via Epics and Stories.
+
+👉 **[Detailed Prerequisite Documentation](./Absolute%20Prerequisite%20for%20Learning%20DevOps.md)**
+
+---
+
 #### 🛠️ The DevOps Battleground
 A DevOps engineer acts as the "accelerant" for the SDLC. While we are aware of all phases, our primary focus is on **automating** the **Building, Testing, and Deployment** phases. 
 
@@ -70,3 +84,4 @@ By removing manual intervention, we ensure:
 
 ---
 </details>
+
