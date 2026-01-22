@@ -85,3 +85,23 @@ By removing manual intervention, we ensure:
 ---
 </details>
 
+<details open>
+<summary>🚀 <b>Day 3: Virtual Machines & Virtualization</b></summary>
+<br>
+
+**Focus:** Moving from physical hardware to logical infrastructure.
+
+* **The Shift:** Moving away from "Bare Metal" (physical servers) to **Virtual Machines (VMs)** to eliminate resource waste.
+* **The Land Analogy:** Understanding how one physical server (the land) can host multiple isolated VMs (houses) without interference.
+* **The Hypervisor:** Learning about the software (Type 1 & Type 2) that acts as the "Resource Traffic Controller" for CPU and RAM.
+* **Cloud Mechanics:** How AWS and Azure use hypervisors in global Data Centers to provide EC2 instances on demand.
+
+
+
+> **Key Takeaway:** Virtualization is the core engine of the Cloud. It provides the **Efficiency** and **Scaling** that DevOps requires.
+
+👉 **[Read Full Day 3 Documentation](./day3.md)**
+
+---
+</details>
+
