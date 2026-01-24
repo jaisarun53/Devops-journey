@@ -105,3 +105,24 @@ By removing manual intervention, we ensure:
 ---
 </details>
 
+<details>
+<summary>🚀 <b>Day 4: AWS & Azure – Hands-on VM Creation</b></summary>
+<br>
+
+**Focus:** Moving from theory to practice by launching cloud infrastructure.
+
+* **Manual vs. Automated:** Understanding that while the **AWS Console** and **Azure Portal** are great for learning, DevOps engineers use **APIs** and **CLI** for efficiency.
+* **EC2 Instance Creation:** Successfully navigated the AWS lifecycle: Choosing an **AMI (Ubuntu)**, selecting **Free Tier (t2.micro)**, and generating **Key Pairs (.pem)** for secure access.
+* **Automation Tools:** Brief introduction to **Infrastructure as Code (IaC)** tools like **Terraform, AWS CDK, and CloudFormation** that eliminate manual human error.
+* **Security & Networking:** Learned that a request must be **Valid, Authenticated, and Authorized** before a Hypervisor provisions resources.
+
+
+
+> **Key Takeaway:** A DevOps engineer’s goal is **Efficiency**. If you have to create 100 servers, you write a script; you don't click the button 100 times.
+
+👉 **[Read Full Day 4 Documentation](./day4.md)**
+
+---
+</details>
+
+
