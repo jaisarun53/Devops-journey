@@ -142,4 +142,23 @@ By removing manual intervention, we ensure:
 ---
 </details>
 
+<details>
+<summary>🐧 <b>Day 6: Linux & Shell Scripting Fundamentals</b></summary>
+<br>
+
+**Focus:** Understanding the Linux OS and mastering the terminal.
+
+* **Linux Architecture:** Explored the relationship between **Hardware**, the **Kernel** (Heart of OS), and the **Shell** (Command Interpreter).
+* **Navigation Mastery:** Learned essential commands for file management: `pwd`, `ls -ltr`, `cd`, `mkdir`, and `touch`.
+* **System Monitoring:** Practiced checking server health using `top` (Task Manager), `free -m` (RAM), and `df -h` (Disk space).
+* **File Editing:** Introduction to the **VI editor**—learning to switch between Command and Insert modes to edit configuration files.
+* **Why Linux?** Discussed why Linux's security, speed, and open-source nature make it the standard for DevOps.
+
+> **Key Takeaway:** You cannot be a DevOps Engineer without being comfortable in a Linux terminal. It is the foundation for Docker, Kubernetes, and Cloud.
+
+👉 **[Read Full Day 6 Documentation](./day6.md)**
+
+---
+</details>
+
 
