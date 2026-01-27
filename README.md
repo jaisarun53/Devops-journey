@@ -124,5 +124,22 @@ By removing manual intervention, we ensure:
 
 ---
 </details>
+<details>
+<summary>🛠️ <b>Day 5: AWS CLI & SSH Mastery</b></summary>
+<br>
+
+**Focus:** Mastering the command line and secure remote access.
+
+* **SSH Connectivity:** Learned how to log into EC2 instances using the terminal and the importance of setting correct permissions (`chmod 400`) on `.pem` keys.
+* **AWS CLI Setup:** Configured local environments using `aws configure` to interact with AWS services without opening a browser.
+* **Resource Management:** Practiced managing S3 buckets and EC2 instances directly through terminal commands.
+* **Automation Teaser:** Explored how **Boto3 (Python)** and **CloudFormation** are used to automate resource creation at scale.
+
+> **Key Takeaway:** Real DevOps work happens in the terminal. Mastering the CLI and SSH is the first step toward true automation.
+
+👉 **[Read Full Day 5 Documentation](./day5.md)**
+
+---
+</details>
 
 
