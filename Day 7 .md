@@ -53,3 +53,16 @@ aws lambda list-functions
 # List IAM users
 echo "Print list of IAM users"
 aws iam list-users
+
+
+## ⏰ Automation with Crontab
+To ensure this report is generated consistently (e.g., every day at 6 PM), we use the Linux Cron utility.
+
+
+
+1. **Open your crontab editor:**
+   ```bash
+   crontab -e
+
+2. **Add the following line at the bottom:**
+0 18 * * * /path/to/your/aws_resource_tracker.sh >> /tmp/resource_usage.log 2>&1
