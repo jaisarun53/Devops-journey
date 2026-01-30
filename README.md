@@ -161,4 +161,24 @@ By removing manual intervention, we ensure:
 ---
 </details>
 
+---
+
+## 📅 Day 8: GitHub API Integration Project
+
+Automated user access auditing for GitHub repositories using Shell Scripting and REST APIs. This project focuses on the intersection of automation, security, and data parsing.
+
+### 🚀 Key Features
+* **GitHub REST API:** Consumed live endpoints to fetch repository metadata.
+* **Authentication:** Implemented secure API access using Personal Access Tokens (PAT) and environment variables.
+* **JSON Parsing:** Utilized `jq` to filter complex nested data and extract specific collaborator information.
+* **User Audit:** Created a script that identifies users with specific permissions (Read/Write) for security compliance.
+
+### 🛠️ Tech Stack
+`Bash` | `GitHub API` | `Curl` | `JQ` | `Linux`
+
+
+
+**[View Day 8 Project Details](./day8.md)**
+
+---
 
