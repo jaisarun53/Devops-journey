@@ -182,3 +182,25 @@ Automated user access auditing for GitHub repositories using Shell Scripting and
 
 ---
 
+---
+
+## 📅 Day 9: Git & GitHub Mastery
+
+Mastered the core concepts of Version Control Systems (VCS) and the practical workflow of Git and GitHub, which are essential for collaboration in DevOps.
+
+
+
+### 🚀 Key Features
+* **Version Control Fundamentals:** Deep dive into why VCS is critical for code sharing and disaster recovery.
+* **Architecture:** Compared **Centralized** (SVN) vs. **Distributed** (Git) systems to understand fault tolerance.
+* **Git Internals:** Explored the local lifecycle of code—Moving files from the **Working Directory** to the **Staging Area** and finally to **Commits**.
+* **GitHub Integration:** Learned how to bridge local development with cloud hosting using Remote repositories and **Forking**.
+
+### 🛠️ Tech Stack
+`Git` | `GitHub` | `Version Control` | `Linux Terminal`
+
+
+
+**[View Day 9 Project Details](./day9.md)**
+
+---
