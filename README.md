@@ -204,3 +204,27 @@ Mastered the core concepts of Version Control Systems (VCS) and the practical wo
 **[View Day 9 Project Details](./day9.md)**
 
 ---
+
+
+---
+
+## 📅 Day 10: Git Branching Strategies
+
+Focused on how enterprise-level organizations manage massive codebases using advanced Git branching workflows. This knowledge is essential for maintaining production stability while allowing for rapid feature development.
+
+
+
+### 🚀 Key Features
+* **Feature Branching:** Isolated development environments for new functionality to prevent breaking the main codebase.
+* **Release Management:** Using dedicated Release branches to perform final testing and "freeze" code before production deployment.
+* **Emergency Hotfixes:** Implementing the Hotfix workflow to patch critical production bugs without waiting for the next release cycle.
+* **Industry Standards:** Analyzed the branching models used by **Kubernetes** and **Uber** to handle thousands of concurrent contributors.
+
+### 🛠️ Tech Stack
+`Git` | `GitHub` | `SDLC` | `DevOps Workflows`
+
+
+
+**[View Day 10 Project Details](./day10.md)**
+
+---
