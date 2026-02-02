@@ -228,3 +228,26 @@ Focused on how enterprise-level organizations manage massive codebases using adv
 **[View Day 10 Project Details](./day10.md)**
 
 ---
+---
+
+## 📅 Day 11: Git for DevOps - Real World Scenarios
+
+Deep dived into the practical application of Git in a professional DevOps environment, focusing on automation, security, and advanced history management.
+
+
+
+### 🚀 Key Features
+* **Professional Workflow:** Mastered the `Add-Commit-Push` lifecycle and understood the internal role of the `.git` directory for tracking and security hooks.
+* **Authentication Security:** Configured **SSH Key-based authentication** (`ssh-keygen`) to implement secure, passwordless communication between local machines and GitHub.
+* **Complex Merging:** Analyzed the technical trade-offs between **Merge** and **Rebase**, focusing on how to maintain a clean linear history in large-scale enterprise projects.
+* **Precision Operations:** Practiced **Cherry-picking** to isolate and apply specific commits across branches without performing a full merge.
+* **Conflict Resolution:** Learned to manually resolve merge conflicts, a critical skill when multiple teams collaborate on the same microservice or configuration file.
+
+### 🛠️ Tech Stack
+`Git` | `GitHub` | `SSH` | `Linux CLI` | `Version Control`
+
+
+
+**[View Full Day 11 Project Details](./day11.md)**
+
+---
