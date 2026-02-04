@@ -251,3 +251,32 @@ Deep dived into the practical application of Git in a professional DevOps enviro
 **[View Full Day 11 Project Details](./day11.md)**
 
 ---
+---
+
+## 📅 Day 11: Git for DevOps — Real-World Scenarios
+
+Today’s session focused on professional Git workflows, moving beyond simple commands to understand how DevOps engineers manage collaboration, security, and complex code histories.
+
+
+
+### 🚀 Key Takeaways
+* **Inside the `.git` Directory:** Explored the internal structure of Git and how **Hooks** (like pre-commit) can be used to scan for secrets or enforce coding standards.
+* **Secure Authentication:** Configured **SSH Key-based authentication** (`ssh-keygen`) to implement secure, passwordless communication between local environments and GitHub.
+* **Strategic Branching:** Learned to use feature branches to isolate massive changes (e.g., a "House Services" feature) without disrupting the production-ready `main` branch.
+* **Precision Operations:** Mastered **Cherry-picking** to pull specific, high-priority commits (like bug fixes) into a branch without performing a full merge.
+* **Merge vs. Rebase:** Deep dive into the trade-offs between preserving an exact history (**Merge**) versus maintaining a clean, linear project timeline (**Rebase**).
+* **Conflict Resolution:** Learned the manual process of resolving merge conflicts that occur when multiple teams edit the same lines of code.
+
+
+
+### 🛠️ Tech Stack & Essential Commands
+`Git` | `GitHub` | `SSH` | `CLI`
+
+* `git checkout -b <branch>` — Create and switch to a new feature branch.
+* `git cherry-pick <commit-id>` — Apply a specific change from another branch.
+* `git rebase <branch>` — Re-write history for a cleaner timeline.
+* `git remote add origin <url>` — Connect a local repository to the cloud.
+
+**[View Full Day 11 Project Details](./day11.md)**
+
+---
