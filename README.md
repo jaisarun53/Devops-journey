@@ -280,3 +280,30 @@ Today’s session focused on professional Git workflows, moving beyond simple co
 **[View Full Day 11 Project Details](./day11.md)**
 
 ---
+---
+
+## 📅 Day 12: Deploy and Expose Your First App to AWS
+
+Today’s session was a hands-on live project featuring Kunal Verma. We moved from local development to the cloud by deploying a real-time NodeJS application (integrated with Stripe) onto an AWS EC2 instance and making it accessible to the world.
+
+### 🚀 Key Takeaways
+* **Local Testing First:** Cloned the repository and tested the NodeJS app locally to ensure all dependencies and environment variables (`.env`) were working correctly.
+* **AWS IAM Best Practices:** Instead of using the Root account, we created an **IAM User** with specific permissions. This is a critical security standard in DevOps to minimize risk.
+* **Provisioning EC2:** Launched an **Ubuntu 22.04 LTS** instance on AWS, selecting the `t2.micro` instance type to stay within the Free Tier.
+* **Server Configuration:** Connected via **SSH** and manually bootstrapped the remote server by installing:
+    * **Git**: To pull the source code.
+    * **NodeJS & NPM**: To build and run the application environment.
+* **Environment Security:** Used **Vim** to securely create a hidden `.env` file on the server to store Stripe API keys without exposing them in the version control.
+* **Networking & Security Groups:** The most crucial step—learned how to edit **Inbound Rules** to open **Port 3000**, allowing the public internet to access the application hosted on the EC2 instance.
+
+### 🛠️ Tech Stack & Essential Commands
+`AWS EC2` | `IAM` | `NodeJS` | `Linux` | `Stripe API`
+
+* `ssh -i <key.pem> ubuntu@<public-ip>` — Securely connect to the AWS instance.
+* `sudo apt update && sudo apt install nodejs npm` — Prepare the server environment.
+* `touch .env && vim .env` — Create and edit hidden configuration files.
+* **Security Group Config**: Added a Custom TCP rule for **Port 3000** with source `0.0.0.0/0`.
+
+**[View Day 12 Video Tutorial](http://www.youtube.com/watch?v=NLmF64KdLN0)**
+
+---
