@@ -307,3 +307,19 @@ Today’s session was a hands-on live project featuring Kunal Verma. We moved fr
 **[View Day 12 Video Tutorial](http://www.youtube.com/watch?v=NLmF64KdLN0)**
 
 ---
+### 🗓️ Day 13: Top 15 AWS Services for DevOps
+
+On Day 13, I shifted from manual deployment to a strategic overview of the **AWS Cloud Ecosystem**. With over 200+ services available, the focus was on identifying the core tools that drive **Automation, Security, and Efficiency** in a modern DevOps pipeline.
+
+
+
+**Key Highlights:**
+* **Infrastructure & Networking:** Explored the foundational roles of **EC2** (Compute), **VPC** (Networking), and **Lambda** (Serverless).
+* **Native CI/CD:** Studied the AWS Developer stack—**CodePipeline**, **CodeBuild**, and **CodeDeploy**—as alternatives to external tools like Jenkins.
+* **Security & Governance:** Deep-dived into **IAM** for access control, **AWS Config** for compliance, and **CloudTrail** for API auditing.
+* **Containers:** Analyzed the differences between **EKS** (Managed Kubernetes) and **ECS** (AWS Proprietary) for container orchestration.
+* **Monitoring:** Leveraged **CloudWatch** for observability and **Billing/Cost Management** for infrastructure optimization.
+
+> **Crucial Takeaway:** DevOps is about using the right tool for the job. Mastering these 15 services allows for building resilient, "Well-Architected" cloud environments.
+
+---
