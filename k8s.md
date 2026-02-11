@@ -58,3 +58,39 @@ Kubernetes abstracts the underlying hardware, treating the entire cluster as one
 
 ---
 [Main README](../README.md)
+
+
+# ☸️ Kubernetes: Core Components & Architecture
+
+This section documents the fundamental building blocks of Kubernetes based on the **TechWorld with Nana** series. Understanding these components is essential for deploying and managing containerized applications at scale.
+
+---
+
+### 📦 1. The Smallest Unit: Pods
+
+* **Definition:** An abstraction layer over a container (e.g., Docker).
+* **Role:** Represents a single instance of a running process.
+* **Networking:** Every Pod gets its own **internal IP address**.
+* **Ephemeral:** Pods are temporary. If they crash, they are replaced with a new Pod (and a new IP).
+
+### 🌐 2. Connectivity: Services & Ingress
+
+* **Service:** A persistent, static IP address that stays constant even if Pods are replaced. It acts as a **Load Balancer** to distribute traffic among Pod replicas.
+* **Ingress:** The "Entry Point" for the cluster. It routes traffic from a secure domain name (e.g., `https://my-app.com`) to the internal Service.
+
+### ⚙️ 3. Configuration: ConfigMaps & Secrets
+* **ConfigMap:** Stores non-confidential configuration (DB URLs, environment variables) so you don't have to hardcode them in your image.
+* **Secret:** Similar to ConfigMaps but used for sensitive data (passwords, API keys). Data is **Base64 encoded** for basic obfuscation.
+
+### 💾 4. Persistence: Volumes
+
+* **The Problem:** Data inside a container is lost when the Pod restarts.
+* **The Solution:** Volumes attach external physical storage (Cloud or Local) to the Pod, ensuring data survives restarts.
+
+### 📋 5. Blueprints: Deployments vs. StatefulSets
+* **Deployment:** A blueprint for **Stateless** apps. It manages scaling, replicas, and self-healing.
+* **StatefulSet:** A blueprint for **Stateful** apps (Databases). It manages unique Pod identities and synchronized data access to prevent inconsistencies.
+
+---
+
+> **💡 DevOps Tip:** In professional workflows, you rarely create Pods manually. You define a **Deployment** blueprint, and Kubernetes handles the creation and management of the Pods for you.
