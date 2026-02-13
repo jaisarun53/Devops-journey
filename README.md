@@ -323,3 +323,42 @@ On Day 13, I shifted from manual deployment to a strategic overview of the **AWS
 > **Crucial Takeaway:** DevOps is about using the right tool for the job. Mastering these 15 services allows for building resilient, "Well-Architected" cloud environments.
 
 ---
+
+### 🛠️ Day 14: Configuration Management & Ansible Theory
+
+This session introduces the concept of **Configuration Management** and why it is critical for maintaining consistency across a fleet of servers. We explore **Ansible** as the primary tool for solving manual overhead.
+
+**Key Learning Objectives:**
+* **Manual vs. Automated Management:** Why logging into 100 servers individually is a security and operational risk.
+* **The Agentless Advantage:** Understanding how Ansible uses SSH to manage nodes without requiring client-side software installation.
+* **Idempotency:** Learning how Ansible ensures a task is only performed if the system is not already in the desired state.
+* **Ansible Architecture:** Introduction to Control Nodes, Managed Nodes, and the Inventory system.
+
+
+
+---
+
+### 📜 Day 15: Ansible Playbooks & Practical Implementation
+
+In this session, we move from theory to hands-on automation by learning how to write and execute **Ansible Playbooks** to manage infrastructure at scale.
+
+**Key Learning Objectives:**
+* **YAML for Automation:** Mastering the syntax used to write declarative Ansible Playbooks.
+* **Inventory Management:** Organizing servers into groups (e.g., [web_servers], [db_servers]) for targeted automation.
+* **Tasks & Modules:** Using built-in modules like `apt`, `yum`, `copy`, and `service` to perform complex operations.
+* **Practical Workflow:** Setting up passwordless SSH authentication and executing playbooks using the `ansible-playbook` command.
+
+### ☁️ Day 16: Infrastructure as Code (IaC) & Terraform Foundations
+
+This session explores the theoretical shift from manual infrastructure configuration to automated, code-based management. We dive deep into why **Terraform** has become the industry standard for modern DevOps.
+
+**Key Learning Objectives:**
+* **The Problem with Platform Lock-in:** Understanding why native tools like AWS CloudFormation (CFT) or Azure Resource Manager (ARM) create challenges in hybrid-cloud environments.
+* **The Terraform Solution:** How a single, provider-agnostic tool can manage multiple cloud platforms (AWS, Azure, GCP) and on-premise systems.
+* **API as Code:** A deep dive into how Terraform translates HCL (HashiCorp Configuration Language) into programmatic API calls to talk to cloud providers.
+* **Hybrid & Multi-Cloud Strategy:** Why organizations are moving toward architectures that utilize the best services from different clouds simultaneously.
+
+
+
+---
+**Detailed Documentation:** [day16.md](./day16.md)
