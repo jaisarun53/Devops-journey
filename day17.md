@@ -80,4 +80,4 @@ Terraform is powerful, but it has "Dark Spots":
 - [ ] Organized code into `variables.tf` and `outputs.tf`.
 
 ---
-*Reference Video: [Day 17 - Everything about Terraform by Abhishek Veeramalla](https://www.youtube.com/watch?v=CzdfdKWRDB8)*
+
