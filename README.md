@@ -387,3 +387,27 @@ Day 17 marked the transition from basic Terraform usage to professional, team-or
 - [x] Standardized project structure for better team collaboration.
 
 **Detailed Documentation:** [day17.md](./day17.md)
+
+📅 Day 18: Introduction to CI/CD — The Heart of DevOps Automation
+Today’s session transitioned from manual infrastructure and scripting to the architectural foundation of Modern Pipelines. We explored how Continuous Integration and Continuous Delivery (CI/CD) turn code commits into customer value through automated trust and "Quality Gates."
+
+### 🔑 Key Learning Objectives
+
+* **Core Pipeline Philosophy:** Mastered the distinction between **Continuous Integration** (build/test), **Continuous Delivery** (manual release gate), and **Continuous Deployment** (fully automated live release).
+* **The "Safety Net" Strategy:** Explored the automation lifecycle—from Unit Testing and **Static Code Analysis** (SonarQube) to Vulnerability Scanning and Artifact creation.
+* **Environment Promotion:** Learned how to architect a staging-to-production flow, ensuring that software is benchmarked in a "mirror" environment before reaching the end user.
+* **Legacy vs. Advanced Setup:** Compared traditional **Jenkins** (static Master/Slave nodes) with modern, event-driven, and cost-optimized pipelines used by top MNCs (like **GitHub Actions** or Kubernetes-based runners).
+
+### 🛠️ Technical Concepts Covered
+* **Orchestration:** Using a central engine (Jenkins/GitLab) to coordinate diverse tools (Maven, Docker, Sonar).
+* **Feedback Loops:** Implementing instant notifications so developers can "Fail Fast" and fix bugs within minutes.
+* **Artifact Management:** Understanding the "Source of Truth" for compiled binaries (JARs/WARs) and Docker Images.
+* **Zero-Waste Compute:** Transitioning from 24/7 idle servers to dynamic, container-based pipeline runners.
+
+### ✅ Accomplishments
+- [x] Defined the standard stages of a production-grade CI/CD pipeline.
+- [x] Analyzed the cost-benefit ratio of Legacy vs. Advanced CI/CD setups.
+- [x] mapped out the "Gatekeeping" process for secure code promotion.
+- [x] Prepared the architectural blueprint for the upcoming Jenkins Live Project.
+
+**Detailed Documentation:** [day18.md](./day18.md)
