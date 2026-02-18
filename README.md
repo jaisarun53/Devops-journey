@@ -411,3 +411,33 @@ Today’s session transitioned from manual infrastructure and scripting to the a
 - [x] Prepared the architectural blueprint for the upcoming Jenkins Live Project.
 
 **Detailed Documentation:** [day18.md](./day18.md)
+
+🚀 Day 18: Kubernetes Kubectl & Pod Management
+
+Day 18 shifted focus from infrastructure provisioning to container orchestration. The session covered the fundamental interaction with a Kubernetes cluster using the Kubectl CLI, moving from simple commands to declarative configuration files.
+
+🔑 Key Learning Objectives
+
+* **Kubernetes Hierarchy:** Mastered the relationship between Deployments, ReplicaSets, and Pods. Learned that we manage Deployments to let Kubernetes handle Pod lifecycles.
+* **Imperative vs. Declarative:** Compared quick CLI commands (`kubectl create`) against the professional standard of using YAML files (`kubectl apply`) for version-controlled infrastructure.
+* **Pod Blueprinting:** Explored the Deployment configuration, understanding how to define container images, ports, and replica counts in a single manifest.
+* **Container Scaling:** Learned how the ReplicaSet ensures the "Desired State" by automatically spinning up new pods if one fails.
+
+
+
+🛠️ Technical Concepts Covered
+
+* **CRUD Operations:** Mastering `get`, `create`, `edit`, and `delete` for various cluster resources.
+* **Debugging Toolkit:** Using `describe` to find infrastructure errors (like ImagePullBackOff) and `logs` to find application-level crashes.
+* **Interactive Debugging:** Leveraging `kubectl exec -it` to drop into a running container's terminal for real-time troubleshooting.
+* **State Updates:** Managing live updates to deployments using `kubectl edit` and observing how Kubernetes performs rolling updates.
+
+✅ Accomplishments
+
+* Deployed and managed a multi-pod Nginx environment.
+* Successfully troubleshot failing pods using the Describe/Logs/Exec workflow.
+* Implemented a declarative deployment using a YAML configuration file.
+* Scaled applications horizontally by modifying replica counts in real-time.
+
+Detailed Documentation: day18.md
+
