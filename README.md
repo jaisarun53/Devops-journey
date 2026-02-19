@@ -439,5 +439,21 @@ Day 18 shifted focus from infrastructure provisioning to container orchestration
 * Implemented a declarative deployment using a YAML configuration file.
 * Scaled applications horizontally by modifying replica counts in real-time.
 
-Detailed Documentation: day18.md
+**Detailed Documentation:** [day18.md](./day19.md)
+
+### 🚀 Day 20: GitHub Actions – Zero to Hero Automation
+
+**Focus:** Modernizing CI/CD by transitioning from self-hosted Jenkins to cloud-native GitHub Actions.
+
+* **Platform Integration:** Leveraged GitHub’s native event-driven system to trigger pipelines on `push`, `pull_request`, and `issue` events.
+* **Workflow as Code:** Defined entire CI/CD lifecycles using YAML manifests stored in `.github/workflows/`, ensuring pipelines version-control alongside application code.
+* **Infrastructure Flexibility:** Explored **GitHub-hosted runners** for convenience and configured **Self-hosted Runners** on AWS EC2 for high-compute tasks and private VPC access.
+* **Parallel Execution:** Implemented the **Matrix Strategy** to test applications across multiple OS and language versions (Python/Node.js) simultaneously.
+* **Real-world Projects:** Built automated testing for Python, a Docker build-and-push workflow, and a K8s deployment pipeline using GitHub Secrets.
+
+
+
+---
+
+**Detailed Documentation:** [day18.md](./day20.md)
 
